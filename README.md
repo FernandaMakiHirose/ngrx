@@ -31,7 +31,7 @@ Teste unitário:
 Teste end-to-end:
 >ng e2e 
 
-## Instalações feitas durando o projeto 
+## Instalações feitas durante o projeto 
 Instalar Store:
 >ng add @ngrx/store@latest 
 
