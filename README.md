@@ -31,7 +31,8 @@ Teste unitário:
 Teste end-to-end:
 >ng e2e 
 
-<a href="https://www.npmjs.com/package/jasmine-marbles">Jasmine Marbles</a>
+Para executar testes:
+><a href="https://www.npmjs.com/package/jasmine-marbles">Jasmine Marbles</a>
 
 ## Instalações feitas durante o projeto 
 Instalar Store:
