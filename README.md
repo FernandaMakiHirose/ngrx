@@ -43,3 +43,25 @@ Instalar Effects:
 
 Instalar Router Store (conecta o estado da rota do Angular e joga essa informação no Store):
 >ng add @ngrx/router-store@latest
+
+## Por que testar?
+- Testes são uma boa documentação.
+- Permite refatorações e adição de novas features de uma forma mais fácil.
+- Dão segurança pro desenvolvedor. 
+
+## Testes unitário
+- Testa porções individuais do código.
+- Isolados.
+- Sem dependências.
+
+## Testes de integração
+- Testa componentes/diretivas/serviços com suas dependências.
+- Chamadas HTTP.
+- View.
+
+## Testes e2e
+- Testa o fluxo da aplicação e se as ações esperadas e não esperadas geram estados esperados.
+
+## Testes unitários e de integração 
+- Jasmine: Framework onde um teste é descrito.
+- Karma: task runner, define o framework de testes, browser, etc.
