@@ -49,19 +49,19 @@ Instalar Router Store (conecta o estado da rota do Angular e joga essa informaç
 - Permite refatorações e adição de novas features de uma forma mais fácil.
 - Dão segurança pro desenvolvedor. 
 
-## Testes unitário
+### Testes unitário
 - Testa porções individuais do código.
 - Isolados.
 - Sem dependências.
 
-## Testes de integração
+### Testes de integração
 - Testa componentes/diretivas/serviços com suas dependências.
 - Chamadas HTTP.
 - View.
 
-## Testes e2e
+### Testes e2e
 - Testa o fluxo da aplicação e se as ações esperadas e não esperadas geram estados esperados.
 
-## Testes unitários e de integração 
+### Testes unitários e de integração 
 - Jasmine: Framework onde um teste é descrito.
 - Karma: task runner, define o framework de testes, browser, etc.
