@@ -34,7 +34,7 @@ Teste end-to-end:
 Para executar testes:
 ><a href="https://www.npmjs.com/package/jasmine-marbles">Jasmine Marbles</a>
 
-Outros frameworks bons para testes: ´Cypress´ e o ´Jest´.
+Outros frameworks bons para testes: `Cypress` e o `Jest`.
 
 ## Instalações feitas durante o projeto 
 Instalar Store:
