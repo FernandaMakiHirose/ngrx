@@ -70,3 +70,17 @@ Instalar Router Store (conecta o estado da rota do Angular e joga essa informaç
 ### Testes unitários e de integração 
 - Jasmine: Framework onde um teste é descrito.
 - Karma: task runner, define o framework de testes, browser, etc.
+
+## Dicas extras
+- Para que serve o Reducer do NgRx? Para calcular o novo estado com base no estado atual e a Action disparada. 
+- Em que ponto o Redux do NgRx se parece com a última implementação do ListService? A responsabilidade dos componentes é disparar ações e ouvir as mudanças geradas por essas ações.
+- Para que serve um serviço no Angular? Compartilhar informação, dentre outras coisas, entre componentes, diretivas, serviços, etc. 
+- Ao atualizar o ListService para conter os métodos que servem como interface entre as chamadas HTTP e os componentes, qual se torna a responsabilidade dos componentes? Disparar um comando para o ListService e ouvir as mudanças que esse comando gerou.
+- O que um teste unitário pode testar? Uma função pura. 
+- O que um teste de integração não pode testar? Se o fluxo de uma feature inteira funciona como esperado.
+- Por que precisamos do HttpTestingController ao escrever testes para um serviço que faz chamadas HTTP? Pois ele nos dá uma interface para aferir a qualidade e os valores esperados tanto passados quanto recebidos pela request.
+Quando precisamos rodar o change detection de um componente que estamos testando? Quando atualizamos alguma informação que é um bind com a View e queremos verificar se ela foi atualizada.
+- Qual o padrão mostrado ao escrever testes? AAA - Arrange, Act, Assert.
+- Para que serve um teste e2e? Para validar o fluxo de uma feature de ponta a ponta.
+- Qual o propósito de ter um beforeEach ou afterEach na definição de um teste? Para executar alguma pedaço de código que seja comum entre todos os testes, antes e/ou depois de cada um deles ser executado.
+- Por que precisamos de um TestingModule? Para facilidade, para não precisar declarar todos os componentes, serviços, etc e suas dependências. 
