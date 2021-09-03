@@ -3,7 +3,12 @@ Após fazer login, o projeto mostra uma lista dos últimos 10 todos. É possíve
 
 ![Capturar](https://user-images.githubusercontent.com/72028645/127741728-a35ac92c-f271-491d-94c4-6ce1d0dd611c.PNG)
 
-## Guia
+## Requisitos
+- IDE
+- TypeScript
+- Navegador
+
+## Comandos
 Versão do Angular:
 >9.1.12.
 
