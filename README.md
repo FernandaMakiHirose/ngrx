@@ -6,6 +6,7 @@ Após fazer login, o projeto mostra uma lista dos últimos 10 todos. É possíve
 ## Requisitos
 - IDE
 - TypeScript
+- Angular
 - Navegador
 
 ## Comandos
